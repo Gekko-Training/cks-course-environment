@@ -32,7 +32,7 @@ disk: 50GB
 
 Like:
 ```
-gcloud compute instances create cks-master --zone=europe-west3-c \
+gcloud compute instances create cks-master --zone=europe-west6 \
 --machine-type=e2-medium \
 --image=ubuntu-2004-focal-v20220419 \
 --image-project=ubuntu-os-cloud \
