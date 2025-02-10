@@ -58,7 +58,7 @@ disk: 50GB
 
 Like:
 ```
-gcloud compute instances create cks-worker --zone=europe-west6-b\
+gcloud compute instances create cks-worker --zone=europe-west6-b \
 --machine-type=e2-medium \
 --image=ubuntu-2004-focal-v20220419 \
 --image-project=ubuntu-os-cloud \
